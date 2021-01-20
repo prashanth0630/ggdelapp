@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/d1"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="30dp"
+        android:background="@color/purple_700"
+        >
+     <!--   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/Textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Let's Login to your account"
+                android:layout_marginTop="25dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Phone/email"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="30dp"
+                android:textSize="24sp"
+                />
+
+            <EditText
+                android:id="@+id/editTextNumberPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint=" Password"
+                android:inputType="numberPassword"
+                android:layout_marginTop="35dp"
+                android:textSize="24sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Remember me"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                />
+
+
+
+            <Button
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn1"
+                android:background="#2C572E"
+                android:text="LOGIN"
+                />
+
+        </LinearLayout> -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Let's Login to your account"
+                android:layout_marginTop="25dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+
+
+            <EditText
+                android:layout_below="@+id/Textview1"
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Phone/email"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="30dp"
+                android:textSize="24sp"
+                />
+
+            <EditText
+                android:id="@+id/editTextNumberPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextTextEmailAddress"
+                android:hint=" Password"
+                android:inputType="numberPassword"
+                android:layout_marginTop="35dp"
+                android:textSize="24sp"
+                />
+
+            <TextView
+                android:id="@+id/abcd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextNumberPassword"
+                android:text="Remember me"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:layout_marginTop="40dp"
+                />
+
+
+
+            <Button
+                android:layout_below="@+id/abcd"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn1"
+
+                android:background="@drawable/button"
+                android:text="LOGIN"
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+

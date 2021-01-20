@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">gogreendel</string>
+    <string name="title_home">Pending</string>
+    <string name="title_dashboard">Completed</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+</resources>

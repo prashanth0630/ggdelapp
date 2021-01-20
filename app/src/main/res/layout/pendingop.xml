@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_200">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_arrow_left_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Details"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="30dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer Details"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A-11,402,Chitrakoot,304-B,Saurashtra ResidencyPasodara,395006,Gujarat,India"
+                android:paddingTop="30dp"
+                android:paddingLeft="15dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_round_title_24"
+                android:background=" #c0c0c0 "
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="80dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cscodetechuser@gmail.com"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="45dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cscode tech"
+                android:paddingTop="100dp"
+                android:paddingLeft="45dp"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="call"
+                android:textColor="@color/black"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="300dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store Details"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B 305 Lrg  Taman Melawati hulu"
+                android:paddingTop="30dp"
+                android:paddingLeft="15dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_round_title_24"
+                android:background=" #c0c0c0 "
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="70dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cscodetechuser@gmail.com"
+                android:layout_marginTop="70dp"
+                android:paddingLeft="45dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cscode tech"
+                android:paddingTop="90dp"
+                android:paddingLeft="45dp"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="call"
+                android:textColor="@color/black"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="300dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAYMENT METHOD: Cash On Delivery"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="QTY:2"
+                android:paddingTop="30dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL:₹797"
+                android:textStyle="bold"
+                android:paddingTop="50dp"
+                android:paddingLeft="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="Deliverd"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="360dp"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_cancel_24"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="-40dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
